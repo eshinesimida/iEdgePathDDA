@@ -25,12 +25,12 @@ if (!"BiocManager" %in% as.data.frame(installed.packages())$Package)
   install.packages("BiocManager")
 BiocManager::install(c("EnrichmentBrowser", "KEGGdzPathwaysGEO","KEGGandMetacoreDzPathwaysGEO","SPIA","signatureSearchData"))
 ```
-Then you can install the development version of iEdgeDDA from [GitHub](https://github.com/) with:
+Then you can install the development version of iEdgePathDDA from [GitHub](https://github.com/) with:
 
 ``` r
 if (!"devtools" %in% as.data.frame(installed.packages())$Package)
   install.packages("devtools")
-devtools::install_github("eshinesimida/iEdgeDDA")
+devtools::install_github("eshinesimida/iEdgePathDDA")
 
 ```
 ## Examples
